@@ -8,6 +8,7 @@ public class Check132Pattern {
         
         int min = Integer.MAX_VALUE;
         
+        // ex: 6,1,4,2
         for (int num : nums) {
         	// Only replaced min when there is smaller number
             if (num <= min) {
