@@ -14,6 +14,7 @@ public class Check132Pattern {
             if (num <= min) {
                 min = num;
             } else {
+            	// When 3 and 2 is inside
                 while (!stack.empty()) {
                 	// If 2 > 1
                     if (stack.peek() >= num){
